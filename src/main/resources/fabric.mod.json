@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "voids-backpacks",
+  "version": "${version}",
+  "name": "Voids Backpacks",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/voids-backpacks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.cbitler.voidsbackpacks.client.VoidsBackpacksClient"
+    ],
+    "main": [
+      "io.cbitler.voidsbackpacks.VoidsBackpacks"
+    ]
+  },
+  "mixins": [
+    "voids-backpacks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.7",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}

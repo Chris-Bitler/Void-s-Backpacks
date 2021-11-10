@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "ICI",
+    "LLL"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "voids-backpacks:backpack",
+    "count": 1
+  }
+}
